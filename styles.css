@@ -35,4 +35,6 @@ header {
 
 section{
     background-image: radial-gradient(#7f3d9e,#fa8072);
+    height: 100vh;
+    position: relative;
 }
