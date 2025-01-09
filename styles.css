@@ -114,6 +114,11 @@ section{
         display: flex;
         justify-content: space-between;
 
+        & button:nth-child(1){    
+            & img {
+                transform: scale(-1) ;
+            }
+        }
         & button {
             & img {
                 width: 100px;
