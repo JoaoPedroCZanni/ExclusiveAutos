@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: "Poppins", sans-serif ;
 }
 
 body {
@@ -79,6 +80,7 @@ section{
                 & h2 {
                     font-size: 8em;
                     line-height: 1em;
+                    font-family: "League Gothic" , sans-serif;
                 }
 
                 & .description {   
@@ -98,6 +100,7 @@ section{
                     color: #000;
                     cursor: pointer;
                     font-weight: bold;
+                    font-family: "League Gothic" , sans-serif;
                 }
             }
         }
@@ -163,6 +166,7 @@ section{
 
         & .number {
             font-size:  5em;
+            font-family: "League Gothic" , sans-serif;
         }
 
         & ul {
