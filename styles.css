@@ -208,6 +208,7 @@ section {
                     transform: translateX(200px);
                     transition: 0.7s;
                     transition-delay: 0.3s;
+                    opacity: 0;
                 }
                 & h2 {
                     transition-delay: 0.5s ;
@@ -238,6 +239,7 @@ section {
             & .content {
                 & .car-information, h2, .description, .information {
                     transform: translateX(0);
+                    opacity: 1;
 
                 }
             }
