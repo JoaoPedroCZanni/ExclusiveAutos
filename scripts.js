@@ -10,6 +10,6 @@ nextButton.onclick = () => {
 }
 
 prevButton.onclick = () => {
-    console.log("Botão next ")
+    console.log("Botão prev ")
 
 }
