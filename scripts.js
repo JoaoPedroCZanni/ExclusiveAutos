@@ -22,7 +22,7 @@ nextButton.onclick = () => {
     dotsOld.classList.remove('active')
     dots[active].classList.add('active')
 
-    indicator.querySelector('.number').innerHTML = active + 1 
+    indicator.querySelector('.number').innerHTML ='0' + (active + 1) 
 }
 
 
