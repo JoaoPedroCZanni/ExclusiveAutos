@@ -19,7 +19,13 @@ nextButton.onclick = () => {
     items[active].classList.add('active')
 }
 
+
+
 prevButton.onclick = () => {
-    console.log("Botão prev ")
+    let itemOld = container.querySelector('.list .item.active')
+    itemOld.classList.remove('active')
+
+    active = active - 1 < firstPosition ? lastPosition : active - 1
+    items[active].classList.add('active')
 
 }
