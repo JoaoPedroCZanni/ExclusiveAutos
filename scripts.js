@@ -21,6 +21,8 @@ nextButton.onclick = () => {
     let dotsOld = indicator.querySelector('ul li.active')
     dotsOld.classList.remove('active')
     dots[active].classList.add('active')
+
+    indicator.querySelector('.number').innerHTML = active + 1 
 }
 
 
