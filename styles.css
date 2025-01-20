@@ -63,7 +63,6 @@ section{
                 }
 
                 /* essa parte é pra adicionar uma sombra embaixo da imagem */
-                
                 &::before {
                     content: '';
                     position: absolute;
@@ -74,7 +73,6 @@ section{
                     left: 50px;
                     border: 50%;
                     filter: blur(50px);
-
                 }
             }
 
@@ -93,7 +91,7 @@ section{
                 }
                 
                 & h2 {
-                    font-size: 8em;
+                    font-size: 7em;
                     line-height: 1em;
                     font-family: "League Gothic" , sans-serif;
                 }
@@ -130,8 +128,6 @@ section{
         }
     }
     
-    
-
     .arrows {
         width: 70vw;
         position: absolute;
@@ -146,6 +142,7 @@ section{
                 transform: scale(-1);
             }
         }
+
         & button {
             top: 60%;
             width: 60px;
@@ -204,6 +201,7 @@ section{
 
     }
 }
+
 section {
     & .list{
     --calculation: 1;
@@ -211,14 +209,15 @@ section {
             transform: translateX(calc(100vw * var(--calculation)));
             transition: 0.5s;
             opacity: 0;
-            & .car-img{
 
+            & .car-img{
                 & img{
                     transform: rotate(0);
                     transition: 0.5s;
                     transition-delay: 0.3s; 
                 }
             }
+
             & .content {
                 & .car-information, h2, .description, .information {
                     transform: translateX(calc(200px * var(--calculation)));
